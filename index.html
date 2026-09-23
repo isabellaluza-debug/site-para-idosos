@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Digital Seguro</title>
+    <style>
+        /* CONFIGURAÇÕES GERAIS DE ACESSIBILIDADE */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #F4F6F9;
+            color: #1A1A1A;
+            line-height: 1.6;
+            padding-bottom: 40px;
+        }
+
+        /* TOPO DO APLICATIVO */
+        header {
+            background-color: #004687; /* Azul escuro de alto contraste */
+            color: #FFFFFF;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            font-weight: bold;
+            color: #E6F0FA;
+        }
+
+        /* CONTEÚDO PRINCIPAL */
+        main {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .introducao {
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333333;
+        }
+
+        /* CARD DE DICAS */
+        .card-dica {
+            background-color: #FFFFFF;
+            border: 3px solid #004687;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-dica h2 {
+            color: #004687;
+            font-size: 26px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .card-dica p {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #222222;
+        }
+
+        /* BOTÕES DE AÇÃO GRANDES */
+        .botao-saber-mais {
+            display: block;
+            width: 100%;
+            background-color: #0072CE;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 18px;
+            font-size: 22px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .botao-saber-mais:hover, .botao-saber-mais:focus {
+            background-color: #002D62;
+            outline: 4px solid #FFD700; /* Destaque amarelo para navegação por teclado */
+        }
+
+        /* ALERTA DE EMERGÊNCIA */
+        .alerta {
+            background-color: #FFF3CD;
+            border: 3px solid #856404;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .alerta h3 {
+            color: #856404;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .alerta p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* RODAPÉ */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 18px;
+            color: #555555;
+            border-top: 1px solid #CCCCCC;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Guia Digital Seguro</h1>
+        <p>Aprenda a usar a internet com segurança</p>
+    </header>
+
+    <main>
+        <p class="introducao">Toque nos assuntos abaixo para ler as dicas de proteção:</p>
+
+        <!-- DICA 1 -->
+        <article class="card-dica">
+            <h2>🔒 1. Mensagens Falsas (Golpes)</h2>
+            <p>Se receber uma mensagem de banco ou empresa pedindo seus dados ou dinheiro com urgência, **não responda**.</p>
+            <p>Bancos de verdade nunca pedem senhas por mensagem ou ligação.</p>
+            <a href="#" class="botao-saber-mais" role="button">Maneiras de se proteger</a>
+        </article>
+
+        <!-- DICA 2 -->
+        <article class="card-dica">
+            <h2>🔑 2. Crie Senhas Fortes</h2>
+            <p>Evite usar sua data de nascimento ou sequências simples como "123456" em suas senhas.</p>
+            <p>Misture letras maiúsculas, números e símbolos para ficar mais seguro.</p>
+            <a href="#" class="botao-saber-mais" role="button">Como criar uma senha</a>
+        </article>
+
+        <!-- DICA 3 -->
+        <article class="card-dica">
+            <h2>📱 3. Cuidado com Links</h2>
+            <p>Não clique em links enviados por desconhecidos no WhatsApp ou redes sociais, mesmo que prometam prêmios.</p>
+            <a href="#" class="botao-saber-mais" role="button">Exemplos de links perigosos</a>
+        </article>
+
+        <!-- SEÇÃO DE AJUDA -->
+        <section class="alerta">
+            <h3>Ficou na dúvida?</h3>
+            <p>Antes de clicar ou fazer um pagamento, chame um familiar ou alguém de sua confiança para ajudar você.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido para apoiar a inclusão digital da melhor idade.</p>
+    </footer>
+
+</body>
+</html>
